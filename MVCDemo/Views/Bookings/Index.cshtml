@@ -1,4 +1,4 @@
-﻿@model IEnumerable<MVCDemo.Models.Pizza>
+﻿@model IEnumerable<MVCDemo.Models.Booking>
 
 @{
     ViewData["Title"] = "Index";
@@ -13,16 +13,13 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Name)
+                @Html.DisplayNameFor(model => model.EventTitle)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Size)
+                @Html.DisplayNameFor(model => model.EventDate)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.IsGlutenFree)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Price)
+                @Html.DisplayNameFor(model => model.Qty)
             </th>
             <th></th>
         </tr>
@@ -31,16 +28,13 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.Name)
+                @Html.DisplayFor(modelItem => item.EventTitle)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Size)
+                @Html.DisplayFor(modelItem => item.EventDate)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.IsGlutenFree)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Price)
+                @Html.DisplayFor(modelItem => item.Qty)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
