@@ -5,7 +5,11 @@ VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAppDETAug2022", "WebAppDETAug2022\WebAppDETAug2022.csproj", "{5A2EA06C-044D-468A-AFBE-AB3A4CDA6E89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCDemo", "MVCDemo\MVCDemo.csproj", "{EB5D7AD6-AEBB-4C7F-9BBA-372BE15A9F87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVCDemo", "MVCDemo\MVCDemo.csproj", "{EB5D7AD6-AEBB-4C7F-9BBA-372BE15A9F87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIDemo", "APIDemo\APIDemo.csproj", "{73476029-73F9-4316-AECB-2B7DD1667D51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApiClient", "ConsoleApiClient\ConsoleApiClient.csproj", "{ACE53353-F86C-484C-BE95-8F8ED033A719}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{EB5D7AD6-AEBB-4C7F-9BBA-372BE15A9F87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB5D7AD6-AEBB-4C7F-9BBA-372BE15A9F87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB5D7AD6-AEBB-4C7F-9BBA-372BE15A9F87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73476029-73F9-4316-AECB-2B7DD1667D51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73476029-73F9-4316-AECB-2B7DD1667D51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73476029-73F9-4316-AECB-2B7DD1667D51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73476029-73F9-4316-AECB-2B7DD1667D51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACE53353-F86C-484C-BE95-8F8ED033A719}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACE53353-F86C-484C-BE95-8F8ED033A719}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACE53353-F86C-484C-BE95-8F8ED033A719}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACE53353-F86C-484C-BE95-8F8ED033A719}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
