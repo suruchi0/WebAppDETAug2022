@@ -7,9 +7,20 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAppDETAug2022", "WebAppD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVCDemo", "MVCDemo\MVCDemo.csproj", "{EB5D7AD6-AEBB-4C7F-9BBA-372BE15A9F87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIDemo", "APIDemo\APIDemo.csproj", "{73476029-73F9-4316-AECB-2B7DD1667D51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIDemo", "APIDemo\APIDemo.csproj", "{73476029-73F9-4316-AECB-2B7DD1667D51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApiClient", "ConsoleApiClient\ConsoleApiClient.csproj", "{ACE53353-F86C-484C-BE95-8F8ED033A719}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApiClient", "ConsoleApiClient\ConsoleApiClient.csproj", "{ACE53353-F86C-484C-BE95-8F8ED033A719}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzaClassLibrary", "PizzaClassLibrary\PizzaClassLibrary.csproj", "{1581691D-8507-4D17-A59F-569D1E4ED682}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzaTest", "PizzaTest\PizzaTest.csproj", "{7D22A4CB-9070-4AE1-833B-FABD5BFF022F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{32A590F3-C43E-412D-A132-725F507A8DA6}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoAPI", "..\..\..\Downloads\ToDoAPI\ToDoAPI\ToDoAPI.csproj", "{0000C2BB-892E-48ED-A5F2-3C5D3BBF3D77}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +44,18 @@ Global
 		{ACE53353-F86C-484C-BE95-8F8ED033A719}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACE53353-F86C-484C-BE95-8F8ED033A719}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACE53353-F86C-484C-BE95-8F8ED033A719}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1581691D-8507-4D17-A59F-569D1E4ED682}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1581691D-8507-4D17-A59F-569D1E4ED682}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1581691D-8507-4D17-A59F-569D1E4ED682}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1581691D-8507-4D17-A59F-569D1E4ED682}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D22A4CB-9070-4AE1-833B-FABD5BFF022F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D22A4CB-9070-4AE1-833B-FABD5BFF022F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D22A4CB-9070-4AE1-833B-FABD5BFF022F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D22A4CB-9070-4AE1-833B-FABD5BFF022F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0000C2BB-892E-48ED-A5F2-3C5D3BBF3D77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0000C2BB-892E-48ED-A5F2-3C5D3BBF3D77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0000C2BB-892E-48ED-A5F2-3C5D3BBF3D77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0000C2BB-892E-48ED-A5F2-3C5D3BBF3D77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
